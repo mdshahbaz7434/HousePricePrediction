@@ -1,0 +1,21 @@
+name: house_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9.21
+  - pandas=1.5.3
+  - numpy=1.23.5
+  - matplotlib=3.6.2
+  - seaborn=0.12.2
+  - scikit-learn=1.1.3
+  - joblib=1.2.0
+  - xgboost=1.7.4
+  - lightgbm=3.3.2
+  - pip
+  - pip:
+      # Add any pip-specific packages here if needed
+      # Example:
+      # - somepackage==1.0.0
+
+
